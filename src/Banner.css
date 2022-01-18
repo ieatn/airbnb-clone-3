@@ -1,0 +1,34 @@
+.banner {
+    background: url('https://media.cntraveler.com/photos/5f9b1bf3d6cabb5a697b5157/master/w_1200,h_800,c_limit/airbnb-16123764.jpg') center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+}
+.banner-info {
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 300px;
+}
+.banner-info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner-info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+.banner_searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+.banner-search {
+    display: flex;
+    flex-direction: column;
+    
+}
