@@ -10,7 +10,11 @@ function Banner() {
         <div className="banner">
             <div className="banner-search">
                 {showSearch && <Search />}
-                <Button onClick={() => setShowSearch(!showSearch)} className='banner_searchButton' variant='outlined'>Search Dates</Button>
+                <Button onClick={() => setShowSearch(!showSearch)} 
+                    className='banner_searchButton' variant='outlined'>
+                    {/* ternary operator, if calender is open, display hide on button */}
+                    {showSearch ? 'Hide': 'Search Dates'}
+                </Button>
             </div>
             <div className="banner-info">
                 <h1>Get out and stretch your imagination</h1>
