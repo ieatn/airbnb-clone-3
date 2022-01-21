@@ -1,6 +1,8 @@
 # airbnb-clone
 npm install @material-ui/core
 https://mui.com/
+https://console.firebase.google.com/
+https://stackoverflow.com/questions/37369778/firebase-login-using-power-shell
 
 # Getting Started with Create React App
 
