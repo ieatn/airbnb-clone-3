@@ -2,12 +2,9 @@ import React, {useState} from 'react'
 import './Banner.css'
 import { Button } from '@material-ui/core';
 import Search from './Search';
-import {useNavigate} from 'react-router-dom'
 
  
 function Banner() {
-    // usHistory hook replaced with Navigate in router 6.0
-    const navigate = useNavigate();
     const [showSearch, setShowSearch] = useState(false);
     return (
         <div className="banner">
@@ -22,7 +19,7 @@ function Banner() {
             <div className="banner-info">
                 <h1>Get out and stretch your imagination</h1>
                 <h5>Plan a different kind of getaway</h5>
-                <Button variant='outlined' onClick={() => navigate('/search')}>Explore Nearby</Button>
+                <Button variant='outlined'>Explore Nearby</Button>
             </div>
         </div>
     )
