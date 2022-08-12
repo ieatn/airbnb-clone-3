@@ -1,9 +1,12 @@
 # airbnb-clone
-npm install @material-ui/core
-https://mui.com/
-firebase
 
 link: https://airbnbclone-5e954.web.app/
+
+npm install @material-ui/core for icons
+
+https://mui.com/ for icons
+
+hosted on firebase
 
 # Getting Started with Create React App
 
